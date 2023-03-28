@@ -1,0 +1,227 @@
+:root {
+  --main-brand-font: "Roboto", sans-serif;
+  --sub-brand-font: "Raleway", sans-serif;
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --dark-color: #2e2f42;
+  --success-color: #31d0aa;
+  --text-color: #434455;
+  --subtle-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+  --modal-overlay-color: #2e2f42;
+  --hero-background-color: #2e2f42;
+  --white-background-color: #ffffff;
+  --modal-background-color: #fcfcfc;
+}
+
+/* ================== BODY ================== */
+
+body {
+  background-color: var(--white-background-color);
+  color: var(--text-color);
+  font-family: var(--main-brand-font);
+}
+
+/* Specification */
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Title */
+
+.title-first {
+  color: var(--white-background-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.title-second {
+  color: var(--dark-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.title-third {
+  color: var(--dark-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+/* Paragraphs */
+
+.description {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Buttons */
+
+.main-button {
+  font-family: var(--main-brand-font);
+  color: var(--white-background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  background-color: var(--primary-brand-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: var(--pressed-state-color);
+  cursor: pointer;
+}
+
+.portfolio-button {
+  font-family: var(--main-brand-font);
+  color: var(--primary-brand-color);
+  background-color: var(--light-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  font-family: var(--main-brand-font);
+  color: var(--white-background-color);
+  background-color: var(--pressed-state-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+/* ================== /BODY ================== */
+/* ------------------------------------------- */
+/* ================== HEADER ================== */
+
+/* Logotype */
+
+.brand-logotype {
+  color: var(--primary-brand-color);
+  font-family: var(--sub-brand-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-part {
+  color: var(--dark-color);
+  font-family: var(--sub-brand-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* Navigation */
+
+.nav-link {
+  color: var(--dark-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--pressed-state-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  border-radius: 2px;
+}
+
+/* Contact us */
+
+.adress-style {
+  font-style: normal;
+}
+
+.header-contacts {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-contacts:hover,
+.header-contacts:focus {
+  color: var(--pressed-state-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ================== /HEADER ================== */
+/* --------------------------------------------- */
+/* =================== MAIN ==================== */
+
+/* Hero section */
+
+.section-hero {
+  background-color: var(--dark-color);
+}
+
+/* Features */
+
+/* What are we doing */
+
+/* Our team */
+
+.section-team {
+  background-color: var(--light-color);
+}
+
+.team-list {
+  background-color: var(--white-background-color);
+}
+
+/* =================== /MAIN =================== */
+/* --------------------------------------------- */
+/* ================== FOOTER =================== */
+
+.webstudio-footer {
+  background-color: var(--dark-color);
+}
+
+.darkmode {
+  color: var(--light-color);
+}
+
+/* ================== /FOOTER ================== */
