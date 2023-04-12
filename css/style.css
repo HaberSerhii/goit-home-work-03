@@ -21,12 +21,16 @@ body {
   background-color: var(--white-background-color);
   color: var(--text-color);
   font-family: var(--main-brand-font);
+  width: 1440px;
+  margin: auto;
 }
 
 /* Specification */
 
 .list {
   list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 .link {
@@ -41,7 +45,10 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 48px;
+  margin-right: 472px;
+  margin-left: 472px;
 }
 
 .title-second {
@@ -52,6 +59,8 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  margin-top: 0px;
+  margin-bottom: 72px;
 }
 
 .title-third {
@@ -60,6 +69,8 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* Paragraphs */
@@ -70,6 +81,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* Buttons */
@@ -80,10 +93,8 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
   letter-spacing: 0.04em;
   background-color: var(--primary-brand-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
 }
@@ -123,6 +134,20 @@ body {
 /* ------------------------------------------- */
 /* ================== HEADER ================== */
 
+/* Header */
+
+.page-header {
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+}
+
+.header-container {
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 /* Logotype */
 
 .brand-logotype {
@@ -193,19 +218,67 @@ body {
 /* =================== MAIN ==================== */
 
 /* Hero section */
+.hero-container {
+  background-color: var(--dark-color);
+}
 
 .section-hero {
-  background-color: var(--dark-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  outline: 2px solid tomato;
 }
 
 /* Features */
 
+.features-container {
+  padding: 0px;
+}
+
+.section-features {
+  padding-left: 156px;
+  padding-right: 156px;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+}
+
 /* What are we doing */
+
+.application-container {
+  padding: 0px;
+}
+
+.section-application {
+  padding-left: 156px;
+  padding-right: 156px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  margin-left: auto;
+  margin-right: auto;
+
+  outline: 2px solid tomato;
+}
 
 /* Our team */
 
-.section-team {
+.team-container {
   background-color: var(--light-color);
+  padding: 0px;
+}
+
+.section-team {
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
 }
 
 .team-list {
@@ -216,8 +289,19 @@ body {
 /* --------------------------------------------- */
 /* ================== FOOTER =================== */
 
-.webstudio-footer {
+.footer-container {
   background-color: var(--dark-color);
+  padding: 0px;
+}
+
+.webstudio-footer {
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
 }
 
 .darkmode {
