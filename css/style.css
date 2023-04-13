@@ -15,8 +15,6 @@
   --modal-background-color: #fcfcfc;
 }
 
-/* ================== BODY ================== */
-
 body {
   background-color: var(--white-background-color);
   color: var(--text-color);
@@ -25,7 +23,11 @@ body {
   margin: auto;
 }
 
-/* Specification */
+/**
+  |============================
+  | BASE STYLE
+  |============================
+*/
 
 .list {
   list-style-type: none;
@@ -70,7 +72,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 8px;
 }
 
 /* Paragraphs */
@@ -85,61 +87,15 @@ body {
   margin-bottom: 0px;
 }
 
-/* Buttons */
+/**
+  |============================
+  | HEADER
+  |============================
+*/
 
-.main-button {
-  font-family: var(--main-brand-font);
-  color: var(--white-background-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  background-color: var(--primary-brand-color);
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.main-button:hover,
-.main-button:focus {
-  background-color: var(--pressed-state-color);
-  cursor: pointer;
-}
-
-.portfolio-button {
-  font-family: var(--main-brand-font);
-  color: var(--primary-brand-color);
-  background-color: var(--light-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
-
-.portfolio-button:hover,
-.portfolio-button:focus {
-  font-family: var(--main-brand-font);
-  color: var(--white-background-color);
-  background-color: var(--pressed-state-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-}
-/* ================== /BODY ================== */
-/* ------------------------------------------- */
-/* ================== HEADER ================== */
-
-/* Header */
-
-.page-header {
+.header-page {
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid tomato;
 }
 
 .header-container {
@@ -148,9 +104,22 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-/* Logotype */
 
-.brand-logotype {
+.header-nav {
+  outline: 1px solid rgba(227, 178, 169, 0.782);
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.header-portfolio-border {
+  border-bottom: 1px solid var(--accent-color);
+}
+
+/* Navigation */
+
+.nav-logo {
   color: var(--primary-brand-color);
   font-family: var(--sub-brand-font);
   font-weight: 800;
@@ -160,7 +129,7 @@ body {
   text-transform: uppercase;
 }
 
-.logo-part {
+.nav-logo-part {
   color: var(--dark-color);
   font-family: var(--sub-brand-font);
   font-weight: 800;
@@ -170,7 +139,9 @@ body {
   text-transform: uppercase;
 }
 
-/* Navigation */
+.nav-list {
+  outline: 1px solid rgba(227, 178, 169, 0.782);
+}
 
 .nav-link {
   color: var(--dark-color);
@@ -190,13 +161,13 @@ body {
   border-radius: 2px;
 }
 
-/* Contact us */
+/* Contact us (Address) */
 
-.adress-style {
-  font-style: normal;
+.address-list {
+  outline: 1px solid rgba(227, 178, 169, 0.782);
 }
 
-.header-contacts {
+.address-contacts {
   color: var(--text-color);
   font-weight: 400;
   font-size: 16px;
@@ -204,8 +175,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-contacts:hover,
-.header-contacts:focus {
+.address-contacts:hover,
+.address-contacts:focus {
   color: var(--pressed-state-color);
   font-weight: 400;
   font-size: 16px;
@@ -213,16 +184,37 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* ================== /HEADER ================== */
-/* --------------------------------------------- */
-/* =================== MAIN ==================== */
+/**
+  |============================
+  | MAIN
+  |============================
+*/
 
 /* Hero section */
+
 .hero-container {
   background-color: var(--dark-color);
 }
 
-.section-hero {
+.hero-button {
+  font-family: var(--main-brand-font);
+  color: var(--white-background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--primary-brand-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--pressed-state-color);
+  cursor: pointer;
+}
+
+.hero-section {
   padding-top: 188px;
   padding-bottom: 188px;
   margin-left: auto;
@@ -232,13 +224,17 @@ body {
   outline: 2px solid tomato;
 }
 
-/* Features */
+/* Features section */
 
 .features-container {
   padding: 0px;
 }
 
-.section-features {
+.features-list {
+  outline: 1px solid rgba(227, 178, 169, 0.782);
+}
+
+.features-section {
   padding-left: 156px;
   padding-right: 156px;
   margin-top: 120px;
@@ -247,13 +243,13 @@ body {
   outline: 2px solid tomato;
 }
 
-/* What are we doing */
+/* Skills */
 
-.application-container {
+.skills-container {
   padding: 0px;
 }
 
-.section-application {
+.skills-section {
   padding-left: 156px;
   padding-right: 156px;
   margin-top: 120px;
@@ -264,6 +260,10 @@ body {
   outline: 2px solid tomato;
 }
 
+.skills-list {
+  outline: 1px solid rgba(227, 178, 169, 0.782);
+}
+
 /* Our team */
 
 .team-container {
@@ -271,7 +271,7 @@ body {
   padding: 0px;
 }
 
-.section-team {
+.team-section {
   padding-left: 156px;
   padding-right: 156px;
   padding-top: 120px;
@@ -282,19 +282,67 @@ body {
 }
 
 .team-list {
+  outline: 1px solid rgba(227, 178, 169, 0.782);
+}
+
+.team-item {
   background-color: var(--white-background-color);
 }
 
-/* =================== /MAIN =================== */
-/* --------------------------------------------- */
-/* ================== FOOTER =================== */
+/* Portfolio section */
+
+.portfolio-section {
+  padding-left: 156px;
+  padding-right: 156px;
+}
+
+.portfolio-button-list {
+  margin-top: 96px;
+  margin-right: 427px;
+  margin-left: 427px;
+  margin-bottom: 72px;
+  text-align: center;
+  outline: 2px solid tomato;
+}
+
+.portfolio-apps-list {
+  outline: 2px solid tomato;
+}
+
+.portfolio-main-button {
+  font-family: var(--main-brand-font);
+  color: var(--primary-brand-color);
+  background-color: var(--light-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.portfolio-main-button:hover,
+.portfolio-main-button:focus {
+  font-family: var(--main-brand-font);
+  color: var(--white-background-color);
+  background-color: var(--pressed-state-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+/**
+  |============================
+  | FOOTER
+  |============================
+*/
 
 .footer-container {
   background-color: var(--dark-color);
   padding: 0px;
 }
 
-.webstudio-footer {
+.footer-page {
   padding-left: 156px;
   padding-right: 156px;
   padding-top: 100px;
@@ -304,8 +352,6 @@ body {
   outline: 2px solid tomato;
 }
 
-.darkmode {
+.footer-darkmode {
   color: var(--light-color);
 }
-
-/* ================== /FOOTER ================== */

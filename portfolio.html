@@ -7,72 +7,82 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
   </head>
   <body>
-    <header>
+    <!-- Site header -->
+    <header class="header-page">
       <!-- Menu navigation -->
-      <nav class="nav">
-        <a class="brand-logotype link" href="./index.html"
-          >Web<span class="logo-part">Studio</span></a
-        >
-        <ul class="list">
-          <li>
-            <a href="./index.html" class="nav-link link">Studio</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="nav-link link">Portfolio</a>
-          </li>
-          <li>
-            <a href="" class="nav-link link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <!-- Contact us -->
-      <address class="adress-style">
-        <ul class="list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="header-contacts link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="header-contacts link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="header-container header-portfolio-border">
+        <nav class="header-nav">
+          <a class="nav-logo link" href="./index.html"
+            >Web<span class="nav-logo-part">Studio</span></a
+          >
+          <ul class="nav-list list">
+            <li>
+              <a href="./index.html" class="nav-link link">Studio</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="nav-link link">Portfolio</a>
+            </li>
+            <li>
+              <a href="" class="nav-link link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Contact us -->
+        <address class="header-address">
+          <ul class="address-list list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="address-contacts link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="address-contacts link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
+    <!-- Main -->
     <main>
-      <section>
+      <section class="portfolio-section">
         <h1 class="title-first" hidden>Portfolio</h1>
-        <ul class="list">
+        <!-- Buttons -->
+        <ul class="portfolio-button-list list">
           <li>
-            <button type="button" class="portfolio-button">All</button>
+            <button type="button" class="portfolio-main-button">All</button>
           </li>
           <li>
-            <button type="button" class="portfolio-button">Web Site</button>
+            <button type="button" class="portfolio-main-button">
+              Web Site
+            </button>
           </li>
           <li>
-            <button type="button" class="portfolio-button">App</button>
+            <button type="button" class="portfolio-main-button">App</button>
           </li>
           <li>
-            <button type="button" class="portfolio-button">Design</button>
+            <button type="button" class="portfolio-main-button">Design</button>
           </li>
           <li>
-            <button type="button" class="portfolio-button">Marketing</button>
+            <button type="button" class="portfolio-main-button">
+              Marketing
+            </button>
           </li>
         </ul>
-        <ul class="list">
+        <!-- App list -->
+        <ul class="portfolio-apps-list list">
           <li>
             <a href="/" class="link"
               ><img
@@ -184,15 +194,18 @@
         </ul>
       </section>
     </main>
-    <footer class="webstudio-footer">
-      <!-- Logotype -->
-      <a class="brand-logotype link" href="./index.html"
-        >Web<span class="logo-part darkmode">Studio</span></a
-      >
-      <p class="description darkmode">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
-    </footer>
+    <!-- Footer -->
+    <div class="footer-container">
+      <footer class="footer-page">
+        <!-- Logotype -->
+        <a class="nav-logo link" href="./index.html"
+          >Web<span class="logo-part footer-darkmode">Studio</span></a
+        >
+        <p class="description footer-darkmode">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
