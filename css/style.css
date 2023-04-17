@@ -99,10 +99,11 @@ body {
 }
 
 .header-container {
-  padding-left: 156px;
-  padding-right: 156px;
+  padding-left: 141px;
+  padding-right: 141px;
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid var(--accent-color);
 }
 
 .header-nav {
@@ -111,10 +112,6 @@ body {
 
 .header-address {
   font-style: normal;
-}
-
-.header-portfolio-border {
-  border-bottom: 1px solid var(--accent-color);
 }
 
 /* Navigation */
@@ -235,8 +232,8 @@ body {
 }
 
 .features-section {
-  padding-left: 156px;
-  padding-right: 156px;
+  padding-left: 141px;
+  padding-right: 141px;
   margin-top: 120px;
   margin-left: auto;
   margin-right: auto;
@@ -250,8 +247,8 @@ body {
 }
 
 .skills-section {
-  padding-left: 156px;
-  padding-right: 156px;
+  padding-left: 141px;
+  padding-right: 141px;
   margin-top: 120px;
   margin-bottom: 120px;
   margin-left: auto;
@@ -272,8 +269,8 @@ body {
 }
 
 .team-section {
-  padding-left: 156px;
-  padding-right: 156px;
+  padding-left: 141px;
+  padding-right: 141px;
   padding-top: 120px;
   padding-bottom: 120px;
   margin-left: auto;
@@ -292,8 +289,8 @@ body {
 /* Portfolio section */
 
 .portfolio-section {
-  padding-left: 156px;
-  padding-right: 156px;
+  padding-left: 141px;
+  padding-right: 141px;
 }
 
 .portfolio-button-list {
@@ -343,8 +340,8 @@ body {
 }
 
 .footer-page {
-  padding-left: 156px;
-  padding-right: 156px;
+  padding-left: 141px;
+  padding-right: 141px;
   padding-top: 100px;
   padding-bottom: 100px;
   margin-left: auto;
