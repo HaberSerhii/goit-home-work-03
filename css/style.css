@@ -29,6 +29,10 @@ body {
   |============================
 */
 
+img {
+  display: block;
+}
+
 .list {
   list-style-type: none;
   margin: 0px;
@@ -41,6 +45,12 @@ body {
   text-decoration: none;
 }
 
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 /* Title */
 
 .title-first {
@@ -49,10 +59,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  margin-top: 0px;
-  margin-bottom: 48px;
-  margin-right: 472px;
-  margin-left: 472px;
+  max-width: 496px;
 }
 
 .title-second {
@@ -107,12 +114,13 @@ body {
   padding-right: 141px;
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid var(--accent-color);
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .header-address {
@@ -128,6 +136,7 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 0px;
+  margin-right: 76px;
   color: var(--primary-brand-color);
   font-family: var(--sub-brand-font);
   font-weight: 800;
@@ -151,8 +160,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0px;
-  margin-left: 76px;
+  padding: 24px 0;
   gap: 40px;
 }
 
@@ -180,7 +188,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0px;
+  padding: 24px 0;
   gap: 40px;
 }
 
@@ -232,10 +240,8 @@ body {
 }
 
 .hero-section {
-  padding-top: 188px;
-  padding-bottom: 188px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 188px 0;
+  margin: 0 auto;
   text-align: center;
 }
 
