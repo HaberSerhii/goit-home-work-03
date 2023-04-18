@@ -60,7 +60,7 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .title-second {
@@ -214,12 +214,11 @@ img {
 
 /* Hero section */
 
-.hero-container {
-  background-color: var(--dark-color);
-}
-
 .hero-button {
   display: block;
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
   min-width: 169px;
   height: 56px;
   font-family: var(--main-brand-font);
@@ -242,8 +241,8 @@ img {
 
 .hero-section {
   padding: 188px 0;
-  margin: 0 auto;
   text-align: center;
+  background-color: var(--dark-color);
 }
 
 /* Features section */
@@ -289,12 +288,9 @@ img {
 
 /* Our team */
 
-.team-container {
-  background-color: var(--light-color);
-}
-
 .team-section {
   padding: 120px 0px;
+  background-color: var(--light-color);
 }
 
 .team-list {
@@ -392,11 +388,6 @@ img {
   padding: 100px 0;
   margin-left: auto;
   margin-right: auto;
-}
-
-.footer-text-container {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer-logo {
