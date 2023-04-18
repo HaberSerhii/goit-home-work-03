@@ -317,6 +317,7 @@ img {
   display: flex;
   flex-direction: column;
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
   background-color: var(--white-background-color);
 }
 
@@ -399,8 +400,7 @@ img {
 }
 
 .footer-logo {
-  display: flex;
-  flex-direction: row;
+  display: inline-block;
   margin-bottom: 16px;
   color: var(--primary-brand-color);
   font-family: var(--sub-brand-font);
