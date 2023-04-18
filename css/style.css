@@ -185,6 +185,7 @@ img {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  padding: 24px 0;
   gap: 40px;
 }
 
@@ -247,9 +248,6 @@ img {
 
 /* Features section */
 
-.features-container {
-}
-
 .features-section {
   padding: 120px 0;
 }
@@ -271,15 +269,8 @@ img {
 
 /* Skills */
 
-.skills-container {
-  padding: 0px;
-}
-
 .skills-section {
-  padding-left: 141px;
-  padding-right: 141px;
-  margin-top: 120px;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -292,20 +283,18 @@ img {
   gap: 24px;
 }
 
+.skills-list-items {
+  width: calc((100% - 48px) / 3);
+}
+
 /* Our team */
 
 .team-container {
   background-color: var(--light-color);
-  padding: 0px;
 }
 
 .team-section {
-  padding-left: 141px;
-  padding-right: 141px;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 120px 0px;
 }
 
 .team-list {
@@ -320,18 +309,14 @@ img {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding: 0px;
-  padding-bottom: 24px;
+  padding: 32px 16px;
   gap: 8px;
 }
 
 .team-item {
   display: flex;
   flex-direction: column;
-  align-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 32px;
+  width: calc((100% - 72px) / 4);
   background-color: var(--white-background-color);
 }
 
@@ -401,16 +386,9 @@ img {
   |============================
 */
 
-.footer-container {
-  background-color: var(--dark-color);
-  padding: 0px;
-}
-
 .footer-page {
-  padding-left: 141px;
-  padding-right: 141px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  background-color: var(--dark-color);
+  padding: 100px 0;
   margin-left: auto;
   margin-right: auto;
 }
@@ -418,9 +396,22 @@ img {
 .footer-text-container {
   display: flex;
   flex-direction: column;
-  width: 264px;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+  color: var(--primary-brand-color);
+  font-family: var(--sub-brand-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .footer-darkmode {
   color: var(--light-color);
+  max-width: 264px;
 }
